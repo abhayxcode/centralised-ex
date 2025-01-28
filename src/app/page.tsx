@@ -1,4 +1,5 @@
 import MarketHeader from "@/components/MarketHeader";
+import OrderBook from "@/components/OrderBook";
 import TradeForm from "@/components/Trade.form";
 import TradingView from "@/components/TradingView";
 
@@ -12,6 +13,7 @@ export default function TradingPage() {
         </div>
         <div className="space-y-4">
           <TradeForm />
+          <OrderBook />
         </div>
       </div>
     </div>
