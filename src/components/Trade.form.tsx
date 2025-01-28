@@ -3,12 +3,12 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 
 export default function TradeForm() {
-  const [orderType, setOrderType] = useState("limit");
+  // const [orderType, setOrderType] = useState("limit");
   const [side, setSide] = useState("buy");
 
   return (
